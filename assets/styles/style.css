@@ -7,9 +7,12 @@
 
 */
 
-h1,h2 {
+* {
+    box-sizing: border-box;
+}
+h1,h2,h3 {
     font-weight: bold;
-    font-size: 2em;
+    text-align: center;
 }
 
 body{
@@ -17,6 +20,8 @@ body{
     margin: 0;
     padding: 0;
     background-color: #FEF3E2;
+    /* overflow-x: hidden; */
+    max-width: 100%;
 }
 header{
     display: inline;
@@ -61,4 +66,78 @@ nav a:hover{
 
 main {
     display: flex;
+    padding: 20px 20px;
+    gap: 20px;
+    /* margin: 20px; */
+}
+
+.content {
+    flex: 3;
+    /* width: 100%; */
+    /* background-color: green; */
+    
+}
+
+aside {
+    flex: 1;
+}
+
+.content-image{
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.content section img {
+    width: 100%;
+    text-align: center;
+}
+
+#character {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.bold_info {
+    font-weight: bold;
+}
+
+table td{
+    padding-right: 15px;
+    border-spacing: 10px 20px;
+}
+
+.profile section {
+    display: flex;
+    justify-content: center;
+}
+
+.sosmed{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    width: 100%;
+
+}
+
+.discord {
+    background-color: #7289da;
+}
+
+.facebook {
+    background-color: #4267B2;
+}
+
+.whatsapp {
+    background-color: #128c7e;
+}
+
+footer {
+    font-weight: bold;
+    text-align: center;
+    background-color: #FA812F;
+    padding: 10px;
+    color: #FEF3E2;
 }
