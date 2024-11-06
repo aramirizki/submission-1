@@ -1,3 +1,64 @@
+/*
+
+#FEF3E2
+#FAB12F
+#FA812F
+#FA4032 
+
+*/
+
+h1,h2 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
 body{
     font-family: poppins,sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FEF3E2;
+}
+header{
+    display: inline;
+}
+
+.sitename{
+    background-color: #FA4032 ;
+    color: #FEF3E2;
+    padding: 5px 20px;
+}
+
+.jumbotron{
+    text-align: center;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 10px 0;
+    background-color: #FA812F;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a{
+    color: #FEF3E2;
+    text-decoration: none;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+main {
+    display: flex;
 }
